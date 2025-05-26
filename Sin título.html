@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="pt-br"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Chá de Revelação&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Segoe UI', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(to top right, #ffe6f0, #e6f0ff);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #002244;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>overflow-x: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>h1, h2 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.balloon {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>animation: float 4s ease-in-out infinite;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: inset -4px -8px 0 rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.balloon::after {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #666;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.balloon.pink {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #ff99c8;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>left: 15%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>animation-delay: 0s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.balloon.blue {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #66b3ff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>right: 15%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>animation-delay: 2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@keyframes float {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>0% { transform: translateY(0px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>50% { transform: translateY(-20px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>100% { transform: translateY(0px); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.content {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>z-index: 2;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 200px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.info {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.dress-code {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.rosa {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #ff66a3;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.azul {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #3399ff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Balões animados --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="balloon pink"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="balloon blue"&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Conteúdo principal --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;CHÁ DE REVELAÇÃO&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2 style="font-size: 36px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="azul"&gt;ADRIAN&lt;/span&gt; ou &lt;span class="rosa"&gt;MARTA?&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;&lt;strong&gt;15 DE JUNHO DE 2025&lt;/strong&gt;&lt;br&gt;ÀS 17:00&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;SALÃO DE FESTAS DO EDF.&lt;br&gt;MANSÃO VARANDAS DO JARDIM&lt;br&gt;AV. JURACY MAGALHÃES JÚNIOR, 2452&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="dress-code"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>VENHA DE &lt;span class="rosa"&gt;ROSA&lt;/span&gt; OU &lt;span class="azul"&gt;AZUL&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
